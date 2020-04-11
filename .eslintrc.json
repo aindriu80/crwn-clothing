@@ -1,23 +1,32 @@
 {
-    "extends": [
-      "prettier",
-      "prettier/standard",
-      "prettier/react",
-      "plugin:react/recommended"
-    ],
-    "plugins": ["prettier"],
-    "rules": {
-      "prettier/prettier": "error"
-    },
-    "parser": "babel-eslint",
+  "extends": [
+    "prettier",
+    "prettier/standard",
+    "prettier/react",
+    "plugin:react/recommended"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  },
+  {
     "env": {
-      "browser": true
+      "node": 1
     },
-    "settings": {
-      "react": {
-        "pragma": "React",
-        "version": "detect"
-      }
+    "rules": {
+      "quotes": [2, "single", {
+        "avoidEscape": true
+      }]
     }
   }
-  
+}
