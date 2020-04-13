@@ -9,9 +9,9 @@
   "[javascriptreact]": {
     "editor.formatOnSave": false
   }
-} {
-  "editor.formatOnSave": false,
-  "[javascriptreact]": {
-    "editor.formatOnSave": true
-  }
+
+  // "editor.formatOnSave": false,
+  // "[javascriptreact]": {
+  //   "editor.formatOnSave": true
+  // }
 }
