@@ -5,7 +5,7 @@
     font-weight: 300;
     src: url("../fonts/OpenSansCondensed-Light.eot");
     src: url("../fonts/OpenSansCondensed-Light.eot?#iefix") format('embedded-opentype'),
-        url("../fonts/OpenSansCondensed-Lightr.woff2") format('woff2'),
+        /* url("../fonts/OpenSansCondensed-Lightr.woff2") format('woff2'), */
         url("../fonts/OpenSansCondensed-Light.woff") format('woff'),
         url("../fonts/OpenSansCondensed-Light.ttf") format('truetype');
 }
