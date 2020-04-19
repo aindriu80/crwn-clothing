@@ -1,4 +1,3 @@
-// import React from 'react';
 import React, { Component } from 'react';
 
 import FormInput from '../form-input/form-input.component';
@@ -7,7 +6,6 @@ import CustomButton from '../custom-button/custom-button.component';
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 
 import './sign-up.styles.scss';
-import { clearConfigCache } from 'prettier';
 
 class SignUp extends Component {
   constructor() {
@@ -67,7 +65,7 @@ class SignUp extends Component {
             onChange={this.handleChange}
             label="Display Name"
             required
-          ></FormInput>
+          />
 
           <FormInput
             type="email"
@@ -76,7 +74,7 @@ class SignUp extends Component {
             onChange={this.handleChange}
             label="Email"
             required
-          ></FormInput>
+          />
 
           <FormInput
             type="password"
@@ -85,7 +83,7 @@ class SignUp extends Component {
             onChange={this.handleChange}
             label="Password"
             required
-          ></FormInput>
+          />
 
           <FormInput
             type="password"
@@ -94,7 +92,7 @@ class SignUp extends Component {
             onChange={this.handleChange}
             label="Confirm Password"
             required
-          ></FormInput>
+          />
 
           <CustomButton type="submit">SIGN UP</CustomButton>
         </form>
