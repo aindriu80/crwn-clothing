@@ -26,7 +26,7 @@ class App extends React.Component {
           });
         });
       }
-      setCurrentUser({ userAuth });
+      setCurrentUser(userAuth);
     });
   }
 
@@ -40,8 +40,8 @@ class App extends React.Component {
         <BrowserRouter>
           <Header />
           <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route exact path="/shop/" component={ShopPage} />
+          <Route exact path='/' component={HomePage} />
+          <Route path='/shop' component={ShopPage} />
             <Route
               exact
               path="/signin"
