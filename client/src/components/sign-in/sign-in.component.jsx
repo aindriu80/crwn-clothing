@@ -9,11 +9,11 @@ import {
   emailSignInStart
 } from '../../redux/user/user.actions';
 
-import {
-  SignInContainer,
-  SignInTitle,
-  ButtonsBarContainer
-} from './sign-in.styles.scss';
+// import {
+//   SignInContainer,
+//   SignInTitle,
+//   ButtonsBarContainer
+// } from './sign-in.styles.scss';
 
 const SignIn = ({ emailSignInStart, googleSignInStart }) => {
   const [userCredentials, setCredentials] = useState({
